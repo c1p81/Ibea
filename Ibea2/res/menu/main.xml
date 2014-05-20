@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.luca.innocenti.ibea2.MainActivity" >
+    <item android:id="@+id/mappa" android:orderInCategory="99" android:title="@string/mappa" app:showAsAction="always"/>
+    
+    <item android:id="@+id/action_settings" android:orderInCategory="100" android:title="@string/action_settings" app:showAsAction="always" android:icon="@drawable/ic_it">
+        
+        
+  
+        <menu>
+            <group android:checkableBehavior="single">
+            <item android:id="@+id/it" android:title="@string/it" android:checkable="false" android:checked="false" />
+            <item android:id="@+id/uk" android:title="@string/uk" android:checked="false" android:checkable="false" />
+            <item android:id="@+id/fr" android:title="@string/fr" android:checkable="false" />
+            </group>
+        </menu>
+    </item>
+    
+
+</menu>
